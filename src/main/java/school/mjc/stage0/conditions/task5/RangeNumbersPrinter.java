@@ -1,11 +1,8 @@
 package school.mjc.stage0.conditions.task5;
 
 public class RangeNumbersPrinter {
-    public static int printRange(int number) {
-
-        number = 1;
-
-        switch(number){
+    public static void printRange(int number) {
+        switch (number) {
             case 1:
             case 2:
             case 3:
@@ -24,10 +21,5 @@ public class RangeNumbersPrinter {
                 System.out.println("out of range");
                 break;
         }
-        return number;
     }
-    public static void main(String[] args){
-        printRange(1);
-    }
-
 }
